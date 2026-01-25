@@ -11,7 +11,7 @@ This repository contains the research paper **"Fake News Detection Using BERT wi
 
 ---
 
-## 📄 Paper Abstract
+##  Paper Abstract
 
 The proliferation of fake news poses a significant threat to information integrity in the digital age. This paper presents a novel approach to fake news detection using BERT (Bidirectional Encoder Representations from Transformers) with Sequential Parameter Switch Training (SPST), specifically designed for resource-constrained environments. Our method addresses the computational limitations of training large language models by implementing a three-phase sequential training strategy that progressively unfreezes model layers, enabling effective fine-tuning within Google Colab's free tier GPU constraints.
 
@@ -19,7 +19,7 @@ The model achieves **75.08% accuracy, 86.49% precision, 70.53% recall, 77.70% F1
 
 ---
 
-## 🔗 Related Repositories
+##  Related Repositories
 
 | Repository | Purpose | Link |
 |------------|---------|------|
@@ -28,7 +28,7 @@ The model achieves **75.08% accuracy, 86.49% precision, 70.53% recall, 77.70% F1
 
 ---
 
-## 🏗️ Methodology Overview
+##  Methodology Overview
 
 **Sequential Parameter Switch Training (SPST)** is a three-phase training methodology:
 
@@ -39,14 +39,14 @@ The model achieves **75.08% accuracy, 86.49% precision, 70.53% recall, 77.70% F1
 This approach reduces peak memory usage by **~40%** while maintaining competitive performance.
 
 ### Key Features:
-- ✅ Progressive layer unfreezing for memory efficiency
-- ✅ Gradient checkpointing and mixed precision training
-- ✅ Optimized for Google Colab free tier (NVIDIA T4 GPU)
-- ✅ Unified dataset from LIAR, ISOT, and FakeNewsNet
+-  Progressive layer unfreezing for memory efficiency
+-  Gradient checkpointing and mixed precision training
+-  Optimized for Google Colab free tier (NVIDIA T4 GPU)
+-  Unified dataset from LIAR, ISOT, and FakeNewsNet
 
 ---
 
-## 📊 Key Results
+##  Key Results
 
 | Metric | Value |
 |--------|-------|
@@ -61,7 +61,7 @@ This approach reduces peak memory usage by **~40%** while maintaining competitiv
 
 ---
 
-## 📂 Repository Contents
+##  Repository Contents
 .
 ├── BERT_Fake_News_Detection_Research_Paper.pdf # Main research paper
 ├── README.md # This file
@@ -70,7 +70,7 @@ This approach reduces peak memory usage by **~40%** while maintaining competitiv
 
 ---
 
-## 🧪 Reproducibility
+##  Reproducibility
 
 All experimental code, data preprocessing scripts, training implementations, and evaluation protocols are maintained in a separate repository for clarity and maintainability:
 
@@ -86,7 +86,7 @@ This repository includes:
 
 ---
 
-## 📝 Citation
+## Citation
 
 If you use this work in your research, please cite:
 
@@ -94,20 +94,20 @@ If you use this work in your research, please cite:
 Singh, M. P. (2025). Fake News Detection Using BERT with Sequential Parameter Switch Training: A Resource-Efficient Approach. *GitHub repository*. https://github.com/premananda-cloud/bert-spst-paper
 
 
-# 📜 License
+#  License
 This work is licensed under the MIT License - see the LICENSE file for details.
 
 The paper text is available under CC-BY-4.0 (allowing sharing and adaptation with attribution).
 
 The code in the experimental repository is available under MIT License.
 
-# 👤 Author
+#  Author
 Mayanglambam Premananda Singh
 National Institute of Electronics and Information Technology, Imphal, Manipur
 Email: p.mangang@proton.me
 GitHub: @premananda-cloud
 
-# 🙏 Acknowledgments
+#  Acknowledgments
 Google Colab for providing free GPU resources
 
 Hugging Face for the Transformers library
